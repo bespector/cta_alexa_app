@@ -1,9 +1,7 @@
 import os
-from flask import Flask, render_template
-from flask_ask import Ask, request, session, question, statement
-from lxml import html
+from flask import Flask
+from flask_ask import Ask, question, statement
 from collections import OrderedDict
-import requests, bs4
 from datetime import datetime
 app = Flask(__name__)
 
